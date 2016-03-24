@@ -1,0 +1,31 @@
+Writable User:
+- What is a writable user and how does the system identify one?
+- Can a non-writable user become a writable user?  If so, how?
+- What other types of users can exist besides writable ones?
+
+
+Errors:
+- What (error) occurs for a non-writable user attempting to update their profile?
+     - Will it display on clicking "Edit Profile" or when attempting to "Save Profile"?
+
+
+CSR:
+- How does the system identify a CSR?
+- A CSR can edit a non-writable user's info?
+- Are notifications sent to users when changes are made?  Will a CSR update trigger such notifications and/or additional ones?
+
+
+Profiles:
+- How do we know if it's their profile; or how can a user view a profile that is not their own?
+- Is profile deactivation/account linking considered an "edit"?
+- Is a password considered part of the profile?
+   - CSR can edit user profiles and change passwords?
+   - If they can change passwords, should they be able to manually enter one like a user or should it be system generated?
+
+
+3-5 Key Questions:
+- What is a writable user and how does the system identify one?
+- How does the system identify a CSR?
+- Is profile deactivation/account linking considered an "edit"?
+- Is a password considered part of the profile?
+   - CSR can edit user profiles and change passwords?
