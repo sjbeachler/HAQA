@@ -1,21 +1,29 @@
 # HAQA
 
-First off, let me thank you again for the opportunity to attempt these tasks.  Although they were outside my area of technical expertise, I enjoyed the challenge and the exposure to new things.  I hope you find that my responses show an ability to take multiple technologies with which I have never worked (selenium, github, data.gov, json) on top of other tools with which I have very limited experience (eclipese, java) and deliver logical, working solutions in a relatively short amount of time.  
+2/12/2018 - UPDATE
+
+I am updating this in the hopes that you will have a chance to re-evaluate my work for these exercises.  My original attempt failed in two major ways.  For the first exercise, I realize that I failed to use Page Object Design Pattern.  I wanted to redo this and show my understanding of test/code structure and design meant for easier updating and reusablility.
+
+I also wish I had spent more time on the WhiteBox Testing Exercise.  After a second look, I realize that this is something that I could have made a much better attempt at completing.
+
+Thank you very much for your time and attention.
+Steven Beachler
+512-297-1977
+sjbeachler@hotmail.com
 
 I developed in Windows 7 with Eclipse, JavaSE-1.7, selenium-server-standalone-2.53.0, json-20160212.
 
-Please find:
+Please find available:
 
 Coding Exercise Part 1:
-- OrderIPhone.java
-- VerifyInfoUpdate.java
-- emptyCartMsg.java 
+1.a - SubmitCart.java
+1.b - UpdateAccount.java
+1.c - EmptyCart.java
 
 Coding Exercise Part 2:
-- chargePointNetwork.java
-- hyattStationAddress.java
+2.a - chargePointNetwork.java
+2.b - hyattStationAddress.java
 
-Unfortunately, I am not able to complete the White Box Testing Exercise.  My level of Java is not there yet.
+White Box Testing Exercise - WhiteBox.txt
 
-Specification Review Exercise:
-- SpecReview.txt
+Specification Review Exercise - SpecReview.txt
