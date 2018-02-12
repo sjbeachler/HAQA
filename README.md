@@ -16,7 +16,7 @@ I developed in Windows 7 with Eclipse, JavaSE-1.7, selenium-server-standalone-2.
 Please find available:
 
 Coding Exercise Part 1:
-1 - /PageObjects/*.java
+1 - /pageObjects/*.java
 1.a - SubmitCart.java
 1.b - UpdateAccount.java
 1.c - EmptyCart.java
