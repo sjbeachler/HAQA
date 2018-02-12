@@ -1,0 +1,20 @@
+What are the three bugs?
+- canReceiveMessage() assumes that if the current user does not have permission to modify the message recipients, then they can receive messages by returning true by default.
+
+- addRecipientToAllMessages() checks if successfulMessages is empty and should not.  If it is empty, then there will not be a reason to call addRecipient.
+
+- The call to addRecipient sends the currentUser instead of the recipient.
+
+
+Why doesn't the test find them?
+- The test does not find these bugs because the currentUser == recipient and because it is only checking the failed list and not creating/validating a good list.
+
+
+Tests that would have caught the bugs:
+
+- New automated test expecting a failedList entry made.  Setup a distinct current user and recipient where currentuser.setHasPermissionToModifyRecipients(false).
+
+- Run original test and manually verify good messages recipient list.  The good message should have current user in recipient list (it will not and the bug will be found).
+
+- New automated test.  Setup a distinct current user and recipient where currentuser.setHasPermissionToModifyRecipients(true).  Manually verify the recipient is in the recipient list (it will not be but the current user will be and the bug will be found).
+
